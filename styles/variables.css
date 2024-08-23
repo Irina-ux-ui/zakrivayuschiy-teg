@@ -1,1 +1,33 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+    --font-main: 'Inter-Variable', sans-serif;
+    --font-accent: 'Press Start 2P', sans-serif,fantasy;
+    --font-weight-main: 700;
+    --font-weight-main-text: 400;
+    --bg-color: #fff;
+    --accent-color: #000;
+    --bg-image: 
+      repeating-linear-gradient(
+      to right, 
+      #d3d3d3 0 2px,
+      transparent 2px 4px),
+      repeating-linear-gradient(
+      to bottom, 
+      #e7e7e7 0 2px,
+      transparent 2px 4px),
+      linear-gradient(
+      to bottom,
+      #e7e7e7 0.01%,
+      #1a1a1a);
+    --pointer-disabled: url(../images/pointer-light.png);
+    --name: #000;
+    --fill: #ff0000;
+    --lable-shaddow: 
+    -1px 0 rgba(255, 255, 255, .5), 
+     0 1px rgba(255, 255, 255, .5), 
+     1px 0 rgba(255, 255, 255, .5), 
+     0 -1px rgba(255, 255, 255, .5);
+    --text-stroke: 1px rgba(255, 255, 255, .5);
+    --color-change: #fff;
+  }
