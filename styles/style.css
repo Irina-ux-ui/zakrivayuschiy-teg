@@ -43,9 +43,9 @@
   font-family: var(--font-accent, serif);
   background-color: var(--bg-color, #fff);
   border: 2px solid var(--accent-color);
-  margin-block: 100px;
-  padding-block-start: 135px;
-  padding-block-end: 12px;
+  margin: 7% 25vw;
+  padding: clamp(120px, 32dvi, 136px) 0 25px;
+  border: solid 2px;
 }
 
 .header__logo {
